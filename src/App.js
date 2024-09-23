@@ -20,7 +20,6 @@ function App() {
 
   return (
     <div className="pb-24 md:pb-4">
-      {/* header */}
       <header className="fixed w-full top-0 bg-white z-50 px-4 md:px-0 py-[6px] md:my-0 flex items-center gap-2 justify-between md:pl-[68px]">
         {/* mobile header */}
         <MobileHeader />
@@ -37,16 +36,12 @@ function App() {
         <div className="text-[15px] py-[11px] flex-1 text-center cursor-pointer transition hover:opacity-70">Tab 3</div>
       </section>
 
-      {/* toolbar */}
       <Toolbar />
 
-      {/* tabs */}
       <Tabs />
 
-      {/* Left nav desktop */}
       <LeftNavbar />
 
-      {/* main content */}
       <main className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-[282px_282px_auto] 3xl:grid-cols-[282px_282px_auto_266px] 4xl:grid-cols-[282px_282px_auto_266px_282px] 5xl:grid-cols-[282px_282px_auto_266px_282px_auto] md:gap-3 md:pl-[271px] pt-[90px] md:pt-32 md:pr-5">
         {/* chart 1 */}
         <PieChart1 chartDays={chartDays} />
